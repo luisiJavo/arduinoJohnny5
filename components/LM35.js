@@ -9,8 +9,8 @@ board.on("ready", function() {
   });
   
   temperature.on("data", function() {
-    console.log("celsius: %d", this.C);
-    console.log(temperature);
+    console.log("celsius: %d", (this.C * 500)/1024); //Calibrated
+    
   //  console.log("kelvin: %d", this.K);
   });
 });

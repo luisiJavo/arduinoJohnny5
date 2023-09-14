@@ -11,7 +11,8 @@ new five.Thermometer({
     pin: "A0",
     freq: 10000,
     toCelsius: function(raw) { // optional
-     console.log((500 * raw) /1024);
+      console.log(raw)
+      console.log((500 * raw) /1024);
     }
   });
 });
