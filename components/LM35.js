@@ -10,17 +10,5 @@ board.on("ready", function() {
   
   temperature.on("data", function() {
     console.log("celsius: %d", (this.C * 500)/1024); //Calibrated
-    
-  //  console.log("kelvin: %d", this.K);
   });
 });
-
-// Create an analog Thermometer object:
-/*new five.Thermometer({
-    pin: "A0",
-    toCelsius: function(raw) { // optional
-      //return (raw / sensivity) + offset;
-      return (500 * val) /1024;
-    }
-  });*/
-//});
