@@ -37,7 +37,7 @@
     depending on the capatilities of the board.
 
   NOTE: In order to use SoftwareSerial with the Firmata Serial feature,
-  StandardFirmataPlus must be compiled with Arduino v1.6.6 or newer.
+
 
   At the time of this writing, StandardFirmataPlus will still compile and run
   on ATMega328p and ATMega32u4-based boards, but future versions of this sketch
